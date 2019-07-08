@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="5dp"
+    card_view:contentPadding="5dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardMaxElevation="5dp"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relative3">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative1">
+
+<de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginTop="20dp"
+    android:src="@drawable/fileexplorer"
+    card_view:civ_border_color="@android:color/black"
+    card_view:civ_border_width="0.5dp"
+    android:layout_marginLeft="5dp"
+    android:id="@+id/profilepic"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/username"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/profilepic"
+            android:text="Username"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative2"
+        android:layout_below="@id/relative1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:id="@+id/imageView22"
+    />
+
+        <TextView
+            android:id="@+id/userdanaam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username "
+            android:textSize="12dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/imageView22"/>
+
+
+        <TextView
+            android:id="@+id/Productinfo"
+            android:layout_toRightOf="@id/userdanaam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/imageView22"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/Link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Link:  "
+            android:textSize="15dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_below="@id/userdanaam"/>
+        <TextView
+            android:layout_toRightOf="@id/Link"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_below="@id/userdanaam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/urlink"
+            />
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_below="@id/relative2"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/review"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/review"
+            />
+        <RatingBar
+            android:id="@+id/rating"
+            android:numStars="5"
+            android:stepSize="13"
+            android:rating="0"
+            android:textAlignment="center"
+            android:layout_width="240dp"
+            android:layout_height="45dp" />
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

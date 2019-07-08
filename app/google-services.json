@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "29444661694",
+    "firebase_url": "https://trendsetter-4ff1b.firebaseio.com",
+    "project_id": "trendsetter-4ff1b",
+    "storage_bucket": "trendsetter-4ff1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29444661694:android:48f3fe70eabad02b",
+        "android_client_info": {
+          "package_name": "com.example.trendsetter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29444661694-b8e2unikduhp569mvk9r9mck7f2n57p8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trendsetter",
+            "certificate_hash": "1cb7abd2978f83db211bcc7c1117f2f2ed46403a"
+          }
+        },
+        {
+          "client_id": "29444661694-sdvkemr040acsl9f1r2qmegbn200o1k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEde-yz3Ehw4zaPL8XkJDcdyrp4uw3q90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29444661694-sdvkemr040acsl9f1r2qmegbn200o1k2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

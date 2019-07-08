@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<ImageView
+    android:src="@drawable/border"
+    android:layout_width="match_parent"
+    android:layout_height="119dp"
+    android:scaleType="fitXY"></ImageView>
+
+
+
+    <TextView
+        android:textSize="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Click on Image to choose profile picture"
+        android:textAlignment="center"
+        android:textColor="#A6A1F6"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <RelativeLayout
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image1"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profile"
+        android:layout_margin="10dp"
+       />
+
+        <Button
+        android:id="@+id/Upload"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_below="@id/image1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="#A6A1F6"
+        android:text="Upload"
+        android:textSize="20dp"
+        android:textColor="@android:color/background_light"
+        android:textAllCaps="false" />
+
+
+
+
+</RelativeLayout>
+
+
+
+
+    <ImageView
+        android:layout_weight="1"
+        android:layout_marginTop="175dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/png"
+        />
+
+
+
+   </LinearLayout>

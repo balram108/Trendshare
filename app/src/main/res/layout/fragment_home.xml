@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+<Button
+    android:background="#A6A1F6"
+    android:layout_alignParentRight="true"
+    android:layout_width="80dp"
+    android:layout_height="30dp"
+    android:id="@+id/logout"
+    android:text="Logout"/>
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        />
+    <ListView
+        android:layout_below="@id/back"
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</RelativeLayout>
